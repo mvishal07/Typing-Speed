@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="speedTypingTest" class="container1 pl-4">
+        <h1 class="heading1">Speed Typing Test</h1>
+        
+        <div class="d-flex m-3 ">
+            <img src="https://baharsn.com/wp-content/uploads/2020/08/animated-stopwatch.gif" class="image" />
+            <p id="timer" class="time">0</p>
+            <p class="sec">seconds</p>
+        </div>
+        <div class="container2">
+            <p id="quoteDisplay"></p>
+            <div class="d-none mt-5 mb-5" id="spinner">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="spinner-border" role="status">
+                    </div>
+                </div>
+            </div>
+            <textarea id="quoteInput" class="form-control" placeholder="Type here!"></textarea>
+            <p id="requiredMsg"></p>
+        </div>
+        <p id="result"></p>
+        <div class="ml-3 text-center">
+            <button id="submitBtn" class="subbtn">Submit</button>
+            <button id="resetBtn" class="rebtn">Reset</button>
+        </div>
+    </div>
+    <script src="script7.js"></script>
+</body>
+
+</html>
